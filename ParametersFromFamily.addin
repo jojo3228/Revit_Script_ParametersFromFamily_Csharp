@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Name>ExportFamilyParametersToCSV</Name>
+		<Assembly>ParametersFromFamily\ParametersFromFamily.dll</Assembly>
+		<AddInId>
+			4CFEF252-0E93-4B62-8351-6CBDDD440522
+		</AddInId>
+		<FullClassName>ParametersFromFamily.ExportFamilyParametersToCSV</FullClassName>
+		<Text>Parameters From Family</Text>
+		<Description>Создает csv с параметрами семейства</Description>
+		<VendorId>NikitaPavlov</VendorId>
+		<VendorDescription>@LearnC#</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+</RevitAddIns>
